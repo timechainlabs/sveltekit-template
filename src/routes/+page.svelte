@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Clipboard, ClipboardCheck, Github, Twitter } from 'lucide-svelte';
-
+	
 	const packageManagers = { bun: 'bunx', pnpm: 'pnpx', npm: 'npx', yarn: 'yarn dlx' };
 
 	let isCopied = false;
