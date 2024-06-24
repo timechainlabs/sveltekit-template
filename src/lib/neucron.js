@@ -5,11 +5,11 @@ const neucron = new NeucronSDK();
 const authModule = neucron.authentication;
 const walletModule = neucron.wallet;
 
-// const signUpResponse = await authModule.signUp({ email: "sales@timechainlabs.io", password: "string" });
-// console.log(signUpResponse);
+const signUpResponse = await authModule.signUp({ email: "", password: "string" });
+console.log(signUpResponse);
 
-const loginResponse = await authModule.login({ email: "sales@timechainlabs.io", password: "string" });
-console.log(loginResponse);
+// const loginResponse = await authModule.login({ email: "sales@timechainlabs.io", password: "string" });
+// console.log(loginResponse);
 
 // const walletKeys = await walletModule.getWalletKeys({});
 // console.log(walletKeys);
